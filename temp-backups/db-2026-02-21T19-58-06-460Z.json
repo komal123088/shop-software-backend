@@ -1,0 +1,1389 @@
+{
+  "expenses": [],
+  "employees": [
+    {
+      "_id": "69838822219cddfcd582a062",
+      "name": "hasan",
+      "phone": "4343",
+      "email": "hasan@gmail.com",
+      "role": "stock_keeper",
+      "salary": 25000,
+      "joinDate": "2026-02-25T00:00:00.000Z",
+      "address": "",
+      "cnic": "123456",
+      "username": "hasan",
+      "password": "$2b$10$pahERmY9uQO7VJD34ije.uZaSSRnfEBmjl4Ax1o3P6TXNt6kagqGC",
+      "isActive": true,
+      "salaryStatus": "unpaid",
+      "salaryHistory": [],
+      "lastPaidMonth": null,
+      "createdAt": "2026-02-04T17:55:46.615Z",
+      "updatedAt": "2026-02-04T18:01:59.709Z",
+      "__v": 0
+    }
+  ],
+  "products": [
+    {
+      "_id": "697119dbb4304f473aeea7a8",
+      "name": "Onion",
+      "sku": "34343",
+      "barcode": "6689777807667",
+      "category": "69711977b4304f473aeea78c",
+      "location": "697119bbb4304f473aeea79d",
+      "supplier": "babar",
+      "stock": 30,
+      "costPrice": 15,
+      "salePrice": 10,
+      "minStockAlert": 10,
+      "image": "/uploads/1771161674794-867666126.jpeg",
+      "createdAt": "2026-01-21T18:24:27.690Z",
+      "updatedAt": "2026-02-15T21:05:40.817Z",
+      "__v": 0
+    },
+    {
+      "_id": "69711a04b4304f473aeea7ab",
+      "name": "Sugar",
+      "sku": "fdfd",
+      "barcode": "2686192360368",
+      "category": "Garmets",
+      "location": "myshop",
+      "supplier": "ansar",
+      "stock": 15,
+      "costPrice": 150,
+      "salePrice": 150,
+      "minStockAlert": 5,
+      "image": "/uploads/1771161855162-974743410.png",
+      "createdAt": "2026-01-21T18:25:08.050Z",
+      "updatedAt": "2026-02-15T20:47:43.867Z",
+      "__v": 0
+    },
+    {
+      "_id": "69712135b4304f473aeeb413",
+      "name": "Watch",
+      "sku": "6545",
+      "barcode": "4604485425301",
+      "category": "Garmets",
+      "location": "myshop",
+      "supplier": "بابر ",
+      "stock": 25,
+      "costPrice": 250,
+      "salePrice": 200,
+      "minStockAlert": 10,
+      "image": "/uploads/1771162773331-630165252.jpeg",
+      "createdAt": "2026-01-21T18:55:49.070Z",
+      "updatedAt": "2026-02-15T13:39:33.341Z",
+      "__v": 0
+    },
+    {
+      "_id": "698382ca219cddfcd5829b4a",
+      "name": "Potato",
+      "sku": "1212",
+      "barcode": "6632664614152",
+      "supplier": "Ashfaq",
+      "stock": 396,
+      "costPrice": 20,
+      "salePrice": 25,
+      "minStockAlert": 40,
+      "image": "/uploads/1771162782376-608583241.png",
+      "createdAt": "2026-02-04T17:32:58.674Z",
+      "updatedAt": "2026-02-17T18:31:30.017Z",
+      "__v": 0
+    },
+    {
+      "_id": "698f8c87e4682f953bfdf01f",
+      "name": "Vg",
+      "sku": "455",
+      "barcode": "9217996439344",
+      "category": "69838301219cddfcd5829b58",
+      "location": "697119bbb4304f473aeea79d",
+      "supplier": "Fhg",
+      "stock": 799,
+      "costPrice": 80,
+      "salePrice": 80,
+      "minStockAlert": 10,
+      "createdAt": "2026-02-13T20:41:43.674Z",
+      "updatedAt": "2026-02-17T18:31:30.165Z",
+      "__v": 0,
+      "image": "/uploads/1771162818777-166757605.jpg"
+    },
+    {
+      "_id": "698f8fbce4682f953bfdf806",
+      "name": "H",
+      "sku": "H",
+      "barcode": "6724926168067",
+      "category": "69711977b4304f473aeea78c",
+      "location": "697119bbb4304f473aeea79d",
+      "supplier": "Bab",
+      "stock": 47,
+      "costPrice": 50,
+      "salePrice": 55,
+      "minStockAlert": 10,
+      "image": "/uploads/1771162789825-272617757.jpeg",
+      "createdAt": "2026-02-13T20:55:24.682Z",
+      "updatedAt": "2026-02-17T18:57:23.343Z",
+      "__v": 0
+    },
+    {
+      "_id": "698f93afe4682f953bfdfb78",
+      "name": "hello",
+      "sku": "3434",
+      "barcode": "6014239818231",
+      "category": "69838301219cddfcd5829b58",
+      "location": "697119bbb4304f473aeea79d",
+      "supplier": "ds",
+      "stock": 8,
+      "costPrice": 12,
+      "salePrice": 14,
+      "minStockAlert": 10,
+      "image": "/uploads/1771162801824-293950627.jpg",
+      "createdAt": "2026-02-13T21:12:15.690Z",
+      "updatedAt": "2026-02-17T18:57:23.345Z",
+      "__v": 0
+    },
+    {
+      "_id": "6990a8bc6fd6d2b3bdff54ca",
+      "name": "kjkh",
+      "sku": "55",
+      "barcode": "7462491620724",
+      "category": "69838301219cddfcd5829b58",
+      "supplier": "khjgkj",
+      "stock": 44,
+      "costPrice": 25,
+      "salePrice": 30,
+      "minStockAlert": 10,
+      "image": "/uploads/1771162811417-298158319.png",
+      "createdAt": "2026-02-14T16:54:20.114Z",
+      "updatedAt": "2026-02-17T18:57:23.346Z",
+      "__v": 0
+    },
+    {
+      "_id": "6991cff722521f170fc94474",
+      "name": "Study ",
+      "sku": "012",
+      "barcode": "2360144308379",
+      "supplier": "Pieas",
+      "stock": 20,
+      "costPrice": 900,
+      "salePrice": 200,
+      "minStockAlert": 10,
+      "image": "/uploads/1771163639429-960668369.jpg",
+      "createdAt": "2026-02-15T13:53:59.688Z",
+      "updatedAt": "2026-02-15T13:54:49.539Z",
+      "__v": 0
+    },
+    {
+      "_id": "6991f97a1661cac0cbe62f14",
+      "name": "tiar",
+      "sku": "34",
+      "barcode": "3865999679968",
+      "category": "Clothing",
+      "location": "myshop",
+      "supplier": "Babar",
+      "stock": 9,
+      "costPrice": 10,
+      "salePrice": 15,
+      "minStockAlert": 10,
+      "image": "/uploads/1771174266371-710688193.png",
+      "createdAt": "2026-02-15T16:51:06.378Z",
+      "updatedAt": "2026-02-21T18:49:15.440Z",
+      "__v": 0
+    },
+    {
+      "_id": "699236f68a9284b6778ed375",
+      "name": "me",
+      "sku": "35",
+      "barcode": "7037184410885",
+      "category": "Hello",
+      "supplier": "ewe",
+      "stock": 99,
+      "costPrice": 200,
+      "salePrice": 220,
+      "minStockAlert": 10,
+      "image": "/uploads/1771190006339-71973930.png",
+      "createdAt": "2026-02-15T21:13:26.340Z",
+      "updatedAt": "2026-02-21T18:49:15.476Z",
+      "__v": 0
+    }
+  ],
+  "shopsettings": [
+    {
+      "_id": "6971191db4304f473aeea75d",
+      "shopName": "My Shop",
+      "address": "Main Bazar, City",
+      "location": "Lahore, Punjab",
+      "phone": "03098325271",
+      "whatsapp": "",
+      "email": "",
+      "about": "",
+      "logo": "/uploads/logo.png",
+      "theme": {
+        "mode": "light",
+        "primary": "#0d6efd",
+        "secondary": "#6c757d"
+      },
+      "createdAt": "2026-01-21T18:21:17.723Z",
+      "updatedAt": "2026-02-15T18:28:30.506Z",
+      "__v": 0
+    }
+  ],
+  "inventories": [
+    {
+      "_id": "699a0371b47d070a4ad1307e",
+      "supplierName": "ahmad",
+      "supplierPhone": "34343",
+      "itemDescription": "sdsdsd",
+      "quantity": 100,
+      "unit": "KG",
+      "purchasePrice": 200,
+      "totalAmount": 20000,
+      "amountPaid": 100,
+      "remainingAmount": 19900,
+      "purchaseDate": "2026-02-21T00:00:00.000Z",
+      "notes": "",
+      "createdAt": "2026-02-21T19:11:45.537Z",
+      "updatedAt": "2026-02-21T19:11:45.537Z",
+      "__v": 0
+    }
+  ],
+  "locations": [
+    {
+      "_id": "697119bbb4304f473aeea79d",
+      "name": "myshop",
+      "address": "Abc 1 2 3",
+      "phone": "03401257471",
+      "isActive": true,
+      "createdAt": "2026-01-21T18:23:55.062Z",
+      "updatedAt": "2026-01-21T18:23:55.062Z",
+      "__v": 0
+    }
+  ],
+  "owners": [
+    {
+      "_id": "6971191db4304f473aeea759",
+      "name": "baba",
+      "email": "baba@gmail.com",
+      "password": "$2b$10$mXEr7kEL2uWGs6LbyrDVhOFcft2fFF6objHDk0P.2SNVvuDvnOfDu",
+      "phone": "123456",
+      "shopName": "baba",
+      "isOwner": true,
+      "isRegistered": true,
+      "createdAt": "2026-01-21T18:21:17.439Z",
+      "updatedAt": "2026-01-21T18:21:17.439Z",
+      "__v": 0
+    }
+  ],
+  "categories": [
+    {
+      "_id": "69711977b4304f473aeea78c",
+      "name": "Garmets",
+      "isActive": true,
+      "createdAt": "2026-01-21T18:22:47.402Z",
+      "updatedAt": "2026-02-04T17:33:45.940Z",
+      "__v": 0
+    },
+    {
+      "_id": "69711980b4304f473aeea791",
+      "name": "cosmatic",
+      "isActive": true,
+      "createdAt": "2026-01-21T18:22:56.275Z",
+      "updatedAt": "2026-01-21T18:22:56.275Z",
+      "__v": 0
+    },
+    {
+      "_id": "69838301219cddfcd5829b58",
+      "name": "Clothing",
+      "isActive": true,
+      "createdAt": "2026-02-04T17:33:53.595Z",
+      "updatedAt": "2026-02-04T17:33:53.595Z",
+      "__v": 0
+    },
+    {
+      "_id": "699236a98a9284b6778ed327",
+      "name": "Hello",
+      "isActive": true,
+      "createdAt": "2026-02-15T21:12:09.155Z",
+      "updatedAt": "2026-02-15T21:12:09.155Z",
+      "__v": 0
+    }
+  ],
+  "sales": [
+    {
+      "_id": "69711b5bb4304f473aeea820",
+      "items": [
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "product2",
+          "qty": 1,
+          "price": 40,
+          "_id": "69711b5bb4304f473aeea821"
+        }
+      ],
+      "customer": "69711b1cb4304f473aeea7ff",
+      "customerInfo": null,
+      "saleType": "permanent",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": 40,
+          "detail": "Payment recorded",
+          "date": "2026-01-21T18:43:54.560Z",
+          "_id": "69711e6ab4304f473aeeacbd"
+        },
+        {
+          "method": "cash",
+          "amount": 10,
+          "detail": "Payment recorded",
+          "date": "2026-01-21T18:44:15.191Z",
+          "_id": "69711e7fb4304f473aeeace4"
+        }
+      ],
+      "paidAmount": 50,
+      "subtotal": 40,
+      "discountPercent": 0,
+      "serviceCharge": 20,
+      "tax": 2,
+      "total": 62,
+      "createdAt": "2026-01-21T18:30:51.414Z",
+      "updatedAt": "2026-01-21T18:44:15.192Z",
+      "__v": 2
+    },
+    {
+      "_id": "69711c18b4304f473aeea8e5",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "dfdf",
+          "qty": 1,
+          "price": 10,
+          "_id": "69711c18b4304f473aeea8e6"
+        }
+      ],
+      "customer": null,
+      "customerInfo": {
+        "name": "babar",
+        "phone": "454545"
+      },
+      "saleType": "temporary",
+      "payments": [],
+      "paidAmount": 0,
+      "subtotal": 10,
+      "discountPercent": 0,
+      "serviceCharge": 20,
+      "tax": 0.5,
+      "total": 30.5,
+      "createdAt": "2026-01-21T18:34:00.085Z",
+      "updatedAt": "2026-01-21T18:34:00.085Z",
+      "__v": 0
+    },
+    {
+      "_id": "69711c3bb4304f473aeea8f1",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "dfdf",
+          "qty": 1,
+          "price": 10,
+          "_id": "69711c3bb4304f473aeea8f2"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "product2",
+          "qty": 1,
+          "price": 40,
+          "_id": "69711c3bb4304f473aeea8f3"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [],
+      "paidAmount": 73,
+      "subtotal": 50,
+      "discountPercent": 0,
+      "serviceCharge": 20,
+      "tax": 2.5,
+      "total": 72.5,
+      "createdAt": "2026-01-21T18:34:35.580Z",
+      "updatedAt": "2026-01-21T18:34:35.580Z",
+      "__v": 0
+    },
+    {
+      "_id": "69711eeab4304f473aeead7e",
+      "items": [
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "product2",
+          "qty": 2,
+          "price": 40,
+          "_id": "69711eeab4304f473aeead7f"
+        }
+      ],
+      "customer": null,
+      "customerInfo": {
+        "name": "bb",
+        "phone": "bb"
+      },
+      "saleType": "temporary",
+      "payments": [],
+      "paidAmount": 0,
+      "subtotal": 80,
+      "discountPercent": 0,
+      "serviceCharge": 20,
+      "tax": 4,
+      "total": 104,
+      "createdAt": "2026-01-21T18:46:02.489Z",
+      "updatedAt": "2026-01-21T18:46:02.489Z",
+      "__v": 0
+    },
+    {
+      "_id": "69711f0db4304f473aeead95",
+      "items": [
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "product2",
+          "qty": 10,
+          "price": 40,
+          "_id": "69711f0db4304f473aeead96"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [],
+      "paidAmount": 440,
+      "subtotal": 400,
+      "discountPercent": 0,
+      "serviceCharge": 20,
+      "tax": 20,
+      "total": 440,
+      "createdAt": "2026-01-21T18:46:37.563Z",
+      "updatedAt": "2026-01-21T18:46:37.563Z",
+      "__v": 0
+    },
+    {
+      "_id": "697904e4669459a1125e8504",
+      "items": [
+        {
+          "product": "69712135b4304f473aeeb413",
+          "name": "آلو ",
+          "qty": 1,
+          "price": 15,
+          "_id": "697904e4669459a1125e8505"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": 15,
+          "detail": "",
+          "_id": "697904e4669459a1125e8506",
+          "date": "2026-01-27T18:33:08.874Z"
+        }
+      ],
+      "paidAmount": 15,
+      "subtotal": 15,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 15,
+      "createdAt": "2026-01-27T18:33:08.876Z",
+      "updatedAt": "2026-01-27T18:33:08.876Z",
+      "__v": 0
+    },
+    {
+      "_id": "698383ec219cddfcd5829b76",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 4,
+          "price": 10,
+          "_id": "698383ec219cddfcd5829b77"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": 49,
+          "detail": "",
+          "_id": "698383ec219cddfcd5829b78",
+          "date": "2026-02-04T17:37:48.031Z"
+        }
+      ],
+      "paidAmount": 49,
+      "subtotal": 40,
+      "discountPercent": 0,
+      "serviceCharge": 5,
+      "tax": 4,
+      "total": 49,
+      "createdAt": "2026-02-04T17:37:48.033Z",
+      "updatedAt": "2026-02-04T17:37:48.033Z",
+      "__v": 0
+    },
+    {
+      "_id": "69838486219cddfcd5829bdf",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "69838486219cddfcd5829be0"
+        },
+        {
+          "product": "698382ca219cddfcd5829b4a",
+          "name": "Potato",
+          "qty": 1,
+          "price": 25,
+          "_id": "69838486219cddfcd5829be1"
+        },
+        {
+          "product": "69712135b4304f473aeeb413",
+          "name": "Watch",
+          "qty": 1,
+          "price": 200,
+          "_id": "69838486219cddfcd5829be2"
+        }
+      ],
+      "customer": null,
+      "customerInfo": {
+        "name": "ali",
+        "phone": "12345"
+      },
+      "saleType": "temporary",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": null,
+          "detail": "",
+          "_id": "69838486219cddfcd5829be3",
+          "date": "2026-02-04T17:40:22.458Z"
+        }
+      ],
+      "paidAmount": 0,
+      "subtotal": 235,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 235,
+      "createdAt": "2026-02-04T17:40:22.459Z",
+      "updatedAt": "2026-02-04T17:40:22.459Z",
+      "__v": 0
+    },
+    {
+      "_id": "698384ac219cddfcd5829bf0",
+      "items": [
+        {
+          "product": "69712135b4304f473aeeb413",
+          "name": "Watch",
+          "qty": 1,
+          "price": 200,
+          "_id": "698384ac219cddfcd5829bf1"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 1,
+          "price": 150,
+          "_id": "698384ac219cddfcd5829bf2"
+        },
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "698384ac219cddfcd5829bf3"
+        }
+      ],
+      "customer": null,
+      "customerInfo": {
+        "name": "ali",
+        "phone": "1234"
+      },
+      "saleType": "temporary",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": null,
+          "detail": "",
+          "_id": "698384ac219cddfcd5829bf4",
+          "date": "2026-02-04T17:41:00.732Z"
+        }
+      ],
+      "paidAmount": 360,
+      "subtotal": 360,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 360,
+      "createdAt": "2026-02-04T17:41:00.733Z",
+      "updatedAt": "2026-02-04T17:45:43.605Z",
+      "__v": 0
+    },
+    {
+      "_id": "69838700219cddfcd5829ed0",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 2,
+          "price": 10,
+          "_id": "69838700219cddfcd5829ed1"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 2,
+          "price": 150,
+          "_id": "69838700219cddfcd5829ed2"
+        },
+        {
+          "product": "698382ca219cddfcd5829b4a",
+          "name": "Potato",
+          "qty": 2,
+          "price": 20,
+          "_id": "69838700219cddfcd5829ed3"
+        }
+      ],
+      "customer": "69838646219cddfcd5829eb6",
+      "customerInfo": null,
+      "saleType": "permanent",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": null,
+          "detail": "",
+          "_id": "69838700219cddfcd5829ed4",
+          "date": "2026-02-04T17:50:56.298Z"
+        },
+        {
+          "method": "cash",
+          "amount": 200,
+          "detail": "Payment recorded",
+          "date": "2026-02-04T17:51:59.509Z",
+          "_id": "6983873f219cddfcd5829f24"
+        }
+      ],
+      "paidAmount": 200,
+      "subtotal": 360,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 360,
+      "createdAt": "2026-02-04T17:50:56.300Z",
+      "updatedAt": "2026-02-04T17:51:59.512Z",
+      "__v": 1
+    },
+    {
+      "_id": "698883ad51a972dc3f966d9e",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "698883ad51a972dc3f966d9f"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 1,
+          "price": 150,
+          "_id": "698883ad51a972dc3f966da0"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [],
+      "paidAmount": 188,
+      "subtotal": 160,
+      "discountPercent": 0,
+      "serviceCharge": 20,
+      "tax": 8,
+      "total": 188,
+      "createdAt": "2026-02-08T12:38:05.445Z",
+      "updatedAt": "2026-02-08T12:38:05.445Z",
+      "__v": 0
+    },
+    {
+      "_id": "698883c951a972dc3f966dad",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "698883c951a972dc3f966dae"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 1,
+          "price": 150,
+          "_id": "698883c951a972dc3f966daf"
+        }
+      ],
+      "customer": "69838646219cddfcd5829eb6",
+      "customerInfo": null,
+      "saleType": "permanent",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": 50,
+          "detail": "Payment recorded",
+          "date": "2026-02-08T12:39:39.988Z",
+          "_id": "6988840b51a972dc3f966e22"
+        }
+      ],
+      "paidAmount": 50,
+      "subtotal": 160,
+      "discountPercent": 0,
+      "serviceCharge": 20,
+      "tax": 8,
+      "total": 188,
+      "createdAt": "2026-02-08T12:38:33.757Z",
+      "updatedAt": "2026-02-08T12:39:39.989Z",
+      "__v": 1
+    },
+    {
+      "_id": "698883e651a972dc3f966dbe",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "698883e651a972dc3f966dbf"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 1,
+          "price": 150,
+          "_id": "698883e651a972dc3f966dc0"
+        },
+        {
+          "product": "69712135b4304f473aeeb413",
+          "name": "Watch",
+          "qty": 1,
+          "price": 200,
+          "_id": "698883e651a972dc3f966dc1"
+        }
+      ],
+      "customer": null,
+      "customerInfo": {
+        "name": "majeed",
+        "phone": "6565656"
+      },
+      "saleType": "temporary",
+      "payments": [],
+      "paidAmount": 200,
+      "subtotal": 360,
+      "discountPercent": 0,
+      "serviceCharge": 20,
+      "tax": 18,
+      "total": 398,
+      "createdAt": "2026-02-08T12:39:02.793Z",
+      "updatedAt": "2026-02-08T12:40:16.151Z",
+      "__v": 0
+    },
+    {
+      "_id": "6988c97f506443490a333be6",
+      "items": [
+        {
+          "product": "69712135b4304f473aeeb413",
+          "name": "Watch",
+          "qty": 1,
+          "price": 200,
+          "_id": "6988c97f506443490a333be7"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 1,
+          "price": 150,
+          "_id": "6988c97f506443490a333be8"
+        },
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "6988c97f506443490a333be9"
+        }
+      ],
+      "customer": null,
+      "customerInfo": {
+        "name": "rehmss",
+        "phone": "565656"
+      },
+      "saleType": "temporary",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": null,
+          "detail": "",
+          "_id": "6988c97f506443490a333bea",
+          "date": "2026-02-08T17:35:59.033Z"
+        }
+      ],
+      "paidAmount": 60,
+      "subtotal": 360,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 360,
+      "createdAt": "2026-02-08T17:35:59.035Z",
+      "updatedAt": "2026-02-08T17:39:31.037Z",
+      "__v": 0
+    },
+    {
+      "_id": "6988c9bf506443490a333bf8",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "6988c9bf506443490a333bf9"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 3,
+          "price": 120,
+          "_id": "6988c9bf506443490a333bfa"
+        }
+      ],
+      "customer": "69838646219cddfcd5829eb6",
+      "customerInfo": null,
+      "saleType": "permanent",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": null,
+          "detail": "",
+          "_id": "6988c9bf506443490a333bfb",
+          "date": "2026-02-08T17:37:03.093Z"
+        },
+        {
+          "method": "cash",
+          "amount": 100,
+          "detail": "Payment recorded",
+          "date": "2026-02-08T17:38:11.620Z",
+          "_id": "6988ca03506443490a333cd3"
+        },
+        {
+          "method": "cash",
+          "amount": 200,
+          "detail": "Payment recorded",
+          "date": "2026-02-15T16:52:27.992Z",
+          "_id": "6991f9cb1661cac0cbe6304b"
+        }
+      ],
+      "paidAmount": 300,
+      "subtotal": 370,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 370,
+      "createdAt": "2026-02-08T17:37:03.094Z",
+      "updatedAt": "2026-02-15T16:52:27.995Z",
+      "__v": 2
+    },
+    {
+      "_id": "6988c9d3506443490a333c06",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "6988c9d3506443490a333c07"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": 10,
+          "detail": "",
+          "_id": "6988c9d3506443490a333c08",
+          "date": "2026-02-08T17:37:23.256Z"
+        }
+      ],
+      "paidAmount": 10,
+      "subtotal": 10,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 10,
+      "createdAt": "2026-02-08T17:37:23.257Z",
+      "updatedAt": "2026-02-08T17:37:23.257Z",
+      "__v": 0
+    },
+    {
+      "_id": "698cc2a44b6c8725bd84945d",
+      "items": [
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 1,
+          "price": 150,
+          "_id": "698cc2a44b6c8725bd84945e"
+        },
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "698cc2a44b6c8725bd84945f"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [
+        {
+          "method": "card",
+          "amount": 160,
+          "detail": "",
+          "_id": "698cc2a44b6c8725bd849460",
+          "date": "2026-02-11T17:55:48.283Z"
+        }
+      ],
+      "paidAmount": 160,
+      "subtotal": 160,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 160,
+      "createdAt": "2026-02-11T17:55:48.286Z",
+      "updatedAt": "2026-02-11T17:55:48.286Z",
+      "__v": 0
+    },
+    {
+      "_id": "6991d05822521f170fc94655",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 2,
+          "price": 10,
+          "_id": "6991d05822521f170fc94656"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 3,
+          "price": 150,
+          "_id": "6991d05822521f170fc94657"
+        }
+      ],
+      "customer": null,
+      "customerInfo": {
+        "name": "sabir",
+        "phone": "565656"
+      },
+      "saleType": "temporary",
+      "payments": [],
+      "paidAmount": 423,
+      "subtotal": 470,
+      "discountPercent": 10,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 423,
+      "createdAt": "2026-02-15T13:55:36.079Z",
+      "updatedAt": "2026-02-15T13:57:16.845Z",
+      "__v": 0
+    },
+    {
+      "_id": "6991f9011661cac0cbe62efe",
+      "items": [
+        {
+          "product": "697119dbb4304f473aeea7a8",
+          "name": "Onion",
+          "qty": 1,
+          "price": 10,
+          "_id": "6991f9011661cac0cbe62eff"
+        },
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 1,
+          "price": 150,
+          "_id": "6991f9011661cac0cbe62f00"
+        }
+      ],
+      "customer": null,
+      "customerInfo": {
+        "name": "ali",
+        "phone": "5454545"
+      },
+      "saleType": "temporary",
+      "payments": [],
+      "paidAmount": 50,
+      "subtotal": 159,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 3.021,
+      "total": 162.021,
+      "createdAt": "2026-02-15T16:49:05.815Z",
+      "updatedAt": "2026-02-15T16:54:03.154Z",
+      "__v": 0
+    },
+    {
+      "_id": "699230efef32d522cb319f58",
+      "items": [
+        {
+          "product": "69711a04b4304f473aeea7ab",
+          "name": "Sugar",
+          "qty": 1,
+          "price": 150,
+          "_id": "699230efef32d522cb319f59"
+        }
+      ],
+      "customer": null,
+      "customerInfo": {
+        "name": "tre",
+        "phone": "6"
+      },
+      "saleType": "temporary",
+      "payments": [],
+      "paidAmount": 0,
+      "subtotal": 150,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 150,
+      "createdAt": "2026-02-15T20:47:43.822Z",
+      "updatedAt": "2026-02-15T20:47:43.822Z",
+      "__v": 0
+    },
+    {
+      "_id": "6994b401692bd490b05431f7",
+      "items": [
+        {
+          "product": "698382ca219cddfcd5829b4a",
+          "name": "Potato",
+          "qty": 1,
+          "price": 25,
+          "_id": "6994b401692bd490b05431f8"
+        },
+        {
+          "product": "698f8c87e4682f953bfdf01f",
+          "name": "Vg",
+          "qty": 1,
+          "price": 80,
+          "_id": "6994b401692bd490b05431f9"
+        },
+        {
+          "product": "698f8fbce4682f953bfdf806",
+          "name": "H",
+          "qty": 1,
+          "price": 55,
+          "_id": "6994b401692bd490b05431fa"
+        },
+        {
+          "product": "698f93afe4682f953bfdfb78",
+          "name": "hello",
+          "qty": 1,
+          "price": 14,
+          "_id": "6994b401692bd490b05431fb"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": 134,
+          "detail": "",
+          "_id": "6994b401692bd490b05431fc",
+          "date": "2026-02-17T18:31:29.695Z"
+        }
+      ],
+      "paidAmount": 134,
+      "subtotal": 134,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 134,
+      "createdAt": "2026-02-17T18:31:29.697Z",
+      "updatedAt": "2026-02-17T18:31:29.697Z",
+      "__v": 0
+    },
+    {
+      "_id": "6994ba13692bd490b05439c4",
+      "items": [
+        {
+          "product": "698f8fbce4682f953bfdf806",
+          "name": "H",
+          "qty": 2,
+          "price": 55,
+          "_id": "6994ba13692bd490b05439c5"
+        },
+        {
+          "product": "698f93afe4682f953bfdfb78",
+          "name": "hello",
+          "qty": 1,
+          "price": 14,
+          "_id": "6994ba13692bd490b05439c6"
+        },
+        {
+          "product": "6990a8bc6fd6d2b3bdff54ca",
+          "name": "kjkh",
+          "qty": 1,
+          "price": 30,
+          "_id": "6994ba13692bd490b05439c7"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [
+        {
+          "method": "card",
+          "amount": 64,
+          "detail": "3214",
+          "_id": "6994ba13692bd490b05439c8",
+          "date": "2026-02-17T18:57:23.340Z"
+        }
+      ],
+      "paidAmount": 64,
+      "subtotal": 64,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 64,
+      "createdAt": "2026-02-17T18:57:23.341Z",
+      "updatedAt": "2026-02-17T18:57:23.341Z",
+      "__v": 0
+    },
+    {
+      "_id": "6999fe2b14cd71d4d128fa6f",
+      "items": [
+        {
+          "product": "6991f97a1661cac0cbe62f14",
+          "name": "tiar",
+          "qty": 1,
+          "price": 15,
+          "_id": "6999fe2b14cd71d4d128fa70"
+        },
+        {
+          "product": "699236f68a9284b6778ed375",
+          "name": "me",
+          "qty": 1,
+          "price": 220,
+          "_id": "6999fe2b14cd71d4d128fa71"
+        }
+      ],
+      "customer": null,
+      "customerInfo": null,
+      "saleType": "cash",
+      "payments": [
+        {
+          "method": "cash",
+          "amount": 235,
+          "detail": "",
+          "_id": "6999fe2b14cd71d4d128fa72",
+          "date": "2026-02-21T18:49:15.385Z"
+        }
+      ],
+      "paidAmount": 235,
+      "subtotal": 235,
+      "discountPercent": 0,
+      "serviceCharge": 0,
+      "tax": 0,
+      "total": 235,
+      "createdAt": "2026-02-21T18:49:15.388Z",
+      "updatedAt": "2026-02-21T18:49:15.388Z",
+      "__v": 0
+    }
+  ],
+  "customers": [
+    {
+      "_id": "69711b1cb4304f473aeea7ff",
+      "name": "ali",
+      "phone": "343434",
+      "email": "ab@gmail.com",
+      "gender": "female",
+      "address": "gfgfgfgf",
+      "cnic": "545454545455",
+      "creditLimit": 4500,
+      "dueDate": "2026-01-29T00:00:00.000Z",
+      "totalPurchases": 62,
+      "totalPaid": 50,
+      "remainingDue": 12,
+      "createdAt": "2026-01-21T18:29:48.926Z",
+      "updatedAt": "2026-01-21T18:44:15.196Z",
+      "__v": 0
+    },
+    {
+      "_id": "69838646219cddfcd5829eb6",
+      "name": "Sanam",
+      "phone": "454545",
+      "email": "sanam@gmail.com",
+      "gender": "female",
+      "address": "Chak NO 267 T.T Singh Punjab Pakistan",
+      "cnic": "5454545454",
+      "creditLimit": 50000,
+      "dueDate": "2026-02-06T00:00:00.000Z",
+      "totalPurchases": 918,
+      "totalPaid": 550,
+      "remainingDue": 368,
+      "createdAt": "2026-02-04T17:47:50.400Z",
+      "updatedAt": "2026-02-15T16:52:28.010Z",
+      "__v": 0
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "6999fd2914cd71d4d128f0c4",
+      "type": "success",
+      "message": "QR Code generated! Scan to open on mobile",
+      "isRead": false,
+      "timestamp": "2026-02-21T18:44:57.019Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T18:44:57.025Z",
+      "updatedAt": "2026-02-21T18:44:57.025Z",
+      "__v": 0
+    },
+    {
+      "_id": "6999fe2414cd71d4d128fa6b",
+      "type": "success",
+      "message": "tiar added to cart",
+      "isRead": false,
+      "timestamp": "2026-02-21T18:49:08.185Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T18:49:08.186Z",
+      "updatedAt": "2026-02-21T18:49:08.186Z",
+      "__v": 0
+    },
+    {
+      "_id": "6999fe2414cd71d4d128fa6d",
+      "type": "success",
+      "message": "me added to cart",
+      "isRead": false,
+      "timestamp": "2026-02-21T18:49:08.701Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T18:49:08.702Z",
+      "updatedAt": "2026-02-21T18:49:08.702Z",
+      "__v": 0
+    },
+    {
+      "_id": "6999fe2b14cd71d4d128fa76",
+      "type": "success",
+      "message": "Sale completed! RS235",
+      "isRead": false,
+      "timestamp": "2026-02-21T18:49:15.484Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T18:49:15.485Z",
+      "updatedAt": "2026-02-21T18:49:15.485Z",
+      "__v": 0
+    },
+    {
+      "_id": "699a02fe28d6cdfad53bc2e1",
+      "type": "error",
+      "message": "Failed to load inventory",
+      "isRead": false,
+      "timestamp": "2026-02-21T19:09:50.115Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T19:09:50.122Z",
+      "updatedAt": "2026-02-21T19:09:50.122Z",
+      "__v": 0
+    },
+    {
+      "_id": "699a02fe28d6cdfad53bc2e3",
+      "type": "error",
+      "message": "Failed to load inventory",
+      "isRead": false,
+      "timestamp": "2026-02-21T19:09:50.125Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T19:09:50.126Z",
+      "updatedAt": "2026-02-21T19:09:50.126Z",
+      "__v": 0
+    },
+    {
+      "_id": "699a031a28d6cdfad53bc2e5",
+      "type": "error",
+      "message": "Failed to add entry",
+      "isRead": false,
+      "timestamp": "2026-02-21T19:10:18.387Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T19:10:18.388Z",
+      "updatedAt": "2026-02-21T19:10:18.388Z",
+      "__v": 0
+    },
+    {
+      "_id": "699a0371b47d070a4ad13080",
+      "type": "success",
+      "message": "Purchase from \"ahmad\" added successfully!",
+      "isRead": false,
+      "timestamp": "2026-02-21T19:11:45.564Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T19:11:45.566Z",
+      "updatedAt": "2026-02-21T19:11:45.566Z",
+      "__v": 0
+    },
+    {
+      "_id": "699a0420b47d070a4ad13423",
+      "type": "success",
+      "message": "QR Code generated! Scan to open on mobile",
+      "isRead": false,
+      "timestamp": "2026-02-21T19:14:40.291Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T19:14:40.292Z",
+      "updatedAt": "2026-02-21T19:14:40.292Z",
+      "__v": 0
+    },
+    {
+      "_id": "699a0ca24e8be9c1d3cc75a3",
+      "type": "success",
+      "message": "QR Code generated! Scan to open on mobile",
+      "isRead": false,
+      "timestamp": "2026-02-21T19:50:58.321Z",
+      "emailSent": false,
+      "sendEmail": false,
+      "createdAt": "2026-02-21T19:50:58.327Z",
+      "updatedAt": "2026-02-21T19:50:58.327Z",
+      "__v": 0
+    }
+  ],
+  "_metadata": {
+    "timestamp": "2026-02-21T19:58:06.502Z",
+    "collections": [
+      "expenses",
+      "employees",
+      "products",
+      "shopsettings",
+      "inventories",
+      "locations",
+      "owners",
+      "categories",
+      "sales",
+      "customers",
+      "notifications"
+    ],
+    "totalDocuments": 55
+  }
+}
