@@ -61,21 +61,23 @@ app.use(
 );
 
 // Parse JSON and urlencoded data
+// Parse JSON and urlencoded data
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 
-// Static files for uploads
-const uploadsDir = path.join(__dirname, "uploads");
-if (!fs.existsSync(uploadsDir)) {
-  fs.mkdirSync(uploadsDir, { recursive: true });
-  console.log("📁 Uploads directory created");
+// Static files for uploads — sirf local par
+if (process.env.NODE_ENV !== "production") {
+  const uploadsDir = path.join(__dirname, "uploads");
+  if (!fs.existsSync(uploadsDir)) {
+    fs.mkdirSync(uploadsDir, { recursive: true });
+    console.log("📁 Uploads directory created");
+  }
+  app.use("/uploads", express.static(uploadsDir));
 }
-app.use("/uploads", express.static(uploadsDir));
 
 // Request logging middleware (for development)
 if (process.env.NODE_ENV === "development") {
   app.use((req, res, next) => {
-    // console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
     next();
   });
 }
