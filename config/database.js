@@ -4,18 +4,23 @@ require("dotenv").config();
 const isProduction = process.env.NODE_ENV === "production";
 
 // Mock sequelize for production - MySQL nahi chalega
+const mockModel = {
+  findAll: async () => [],
+  findOne: async () => null,
+  findByPk: async () => null,
+  create: async () => null,
+  update: async () => null,
+  destroy: async () => null,
+  belongsTo: () => {},
+  hasMany: () => {},
+  hasOne: () => {},
+  belongsToMany: () => {},
+  sync: async () => {},
+  prototype: {}, // ← yeh add karo
+};
+
 const mockSequelize = {
-  define: () => ({
-    findAll: async () => [],
-    findOne: async () => null,
-    create: async () => null,
-    update: async () => null,
-    destroy: async () => null,
-    belongsTo: () => {},
-    hasMany: () => {},
-    hasOne: () => {},
-    sync: async () => {},
-  }),
+  define: () => mockModel,
   authenticate: async () => {},
   sync: async () => {},
   query: async () => [],
