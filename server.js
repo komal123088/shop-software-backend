@@ -49,6 +49,7 @@ console.log(`🌐 Detected local IP: ${LOCAL_IP}`);
 app.use(
   cors({
     origin: [
+      "https://shop-software-frontend.vercel.app",
       "http://localhost:5173",
       `http://${LOCAL_IP}:5173`,
       "http://127.0.0.1:5173",
