@@ -284,7 +284,6 @@ const startServer = async () => {
       console.log(`✅ Server running on port ${PORT}`);
       console.log(`🌍 Environment: ${process.env.NODE_ENV || "development"}`);
       console.log(`📊 Database: ${process.env.DB_NAME}`);
-      console.log(`📁 Uploads directory: ${uploadsDir}`);
       console.log("=================================\n");
       console.log(`🔗 Local URL: http://localhost:${PORT}/api/test`);
       console.log(`📡 Network URL: http://${LOCAL_IP}:${PORT}/api/test`);
