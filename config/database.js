@@ -1,51 +1,71 @@
-const { Sequelize } = require('sequelize');
-require('dotenv').config();
+const { Sequelize } = require("sequelize");
+require("dotenv").config();
 
-const sequelize = new Sequelize(
-  process.env.DB_NAME || 'shop_management',
-  process.env.DB_USER || 'root',
-  process.env.DB_PASSWORD || '',
-  {
-    host: process.env.DB_HOST || 'localhost',
-    port: process.env.DB_PORT || 3306,
-    dialect: 'mysql',
-    logging: process.env.NODE_ENV === 'development' ? console.log : false,
-    pool: {
-      max: 10,
-      min: 0,
-      acquire: 30000,
-      idle: 10000
-    },
-    define: {
-      timestamps: true,
-      underscored: false,
-      freezeTableName: false,
-      charset: 'utf8',
-      dialectOptions: {
-        collate: 'utf8_general_ci'
-      }
-    }
+const isMySQLEnabled =
+  process.env.NODE_ENV !== "production" &&
+  process.env.DB_HOST &&
+  process.env.DB_HOST !== "localhost"
+    ? true
+    : process.env.NODE_ENV !== "production";
+
+let sequelize = null;
+
+if (isMySQLEnabled) {
+  try {
+    sequelize = new Sequelize(
+      process.env.DB_NAME || "shop_management",
+      process.env.DB_USER || "root",
+      process.env.DB_PASSWORD || "",
+      {
+        host: process.env.DB_HOST || "localhost",
+        port: process.env.DB_PORT || 3306,
+        dialect: "mysql",
+        logging: process.env.NODE_ENV === "development" ? console.log : false,
+        pool: { max: 10, min: 0, acquire: 30000, idle: 10000 },
+        define: {
+          timestamps: true,
+          underscored: false,
+          freezeTableName: false,
+          charset: "utf8",
+          dialectOptions: { collate: "utf8_general_ci" },
+        },
+      },
+    );
+    console.log("✅ MySQL Sequelize instance created");
+  } catch (err) {
+    console.warn("⚠️ MySQL init failed, skipping:", err.message);
+    sequelize = null;
   }
-);
+} else {
+  console.log("ℹ️ Production mode — MySQL disabled, using MongoDB only");
+}
 
 const testConnection = async () => {
+  if (!sequelize) {
+    console.log("ℹ️ MySQL skipped in production");
+    return false;
+  }
   try {
     await sequelize.authenticate();
-    console.log('✅ MySQL connection established successfully.');
+    console.log("✅ MySQL connection established successfully.");
     return true;
   } catch (error) {
-    console.error('❌ Unable to connect to MySQL:', error);
-    throw error;
+    console.error("❌ Unable to connect to MySQL:", error);
+    return false; // throw ki jagah return false — server crash na ho
   }
 };
 
 const syncDatabase = async (force = false) => {
+  if (!sequelize) {
+    console.log("ℹ️ MySQL sync skipped in production");
+    return false;
+  }
   try {
     await sequelize.sync({ alter: !force, force });
-    console.log('✅ Database synced successfully');
+    console.log("✅ Database synced successfully");
   } catch (error) {
-    console.error('❌ Database sync failed:', error);
-    throw error;
+    console.error("❌ Database sync failed:", error);
+    return false;
   }
 };
 
