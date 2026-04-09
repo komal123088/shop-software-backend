@@ -1,37 +1,17 @@
-const { Sequelize, DataTypes } = require("sequelize");
+const { Sequelize } = require("sequelize");
 require("dotenv").config();
 
 const isProduction = process.env.NODE_ENV === "production";
 
-// Mock sequelize for production - 
-const mockModel = {
-  findAll: async () => [],
-  findOne: async () => null,
-  findByPk: async () => null,
-  create: async () => null,
-  update: async () => null,
-  destroy: async () => null,
-  belongsTo: () => {},
-  hasMany: () => {},
-  hasOne: () => {},
-  belongsToMany: () => {},
-  sync: async () => {},
-  prototype: {}, // ← yeh add karo
-};
-
-const mockSequelize = {
-  define: () => mockModel,
-  authenticate: async () => {},
-  sync: async () => {},
-  query: async () => [],
-};
-
 let sequelize;
 
-if (isProduction) {
-  console.log("ℹ️ Production mode — MySQL disabled, using MongoDB only");
-  sequelize = mockSequelize;
-} else {
+if (isProduction && process.env.MYSQL_URL) {
+  sequelize = new Sequelize(process.env.MYSQL_URL, {
+    dialect: "mysql",
+    logging: false,
+    pool: { max: 10, min: 0, acquire: 30000, idle: 10000 },
+  });
+} else if (!isProduction) {
   sequelize = new Sequelize(
     process.env.DB_NAME || "shop_management",
     process.env.DB_USER || "root",
@@ -42,19 +22,18 @@ if (isProduction) {
       dialect: "mysql",
       logging: false,
       pool: { max: 10, min: 0, acquire: 30000, idle: 10000 },
-      define: {
-        timestamps: true,
-        underscored: false,
-        freezeTableName: false,
-        charset: "utf8",
-        dialectOptions: { collate: "utf8_general_ci" },
-      },
     },
   );
+} else {
+  // Fallback mock
+  sequelize = {
+    define: () => ({ prototype: {} }),
+    authenticate: async () => {},
+    sync: async () => {},
+  };
 }
 
 const testConnection = async () => {
-  if (isProduction) return false;
   try {
     await sequelize.authenticate();
     console.log("✅ MySQL connected.");
@@ -66,7 +45,6 @@ const testConnection = async () => {
 };
 
 const syncDatabase = async (force = false) => {
-  if (isProduction) return false;
   try {
     await sequelize.sync({ alter: !force, force });
     console.log("✅ Database synced");
